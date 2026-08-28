@@ -1,0 +1,24 @@
+- group: "Analysis"
+  icon: "orbit"
+  items:
+    - "Aerodynamics"
+    - "Flight mechanics"
+    - "Finite element methods"
+    - "Uncertainty analysis"
+
+- group: "Design"
+  icon: "airfoil"
+  items:
+    - "CAD & drawings"
+    - "Design for manufacture"
+    - "Requirements & trade studies"
+    - "Test planning"
+
+- group: "Tools"
+  icon: "satellite"
+  items:
+    - "Python / MATLAB"
+    - "SolidWorks / NX"
+    - "ANSYS / OpenFOAM"
+    - "Git / LaTeX"
+
