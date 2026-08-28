@@ -1,0 +1,19 @@
+<article class="project-card reveal">
+  <a href="{{ include.project.url | relative_url }}" aria-label="Read the {{ include.project.title }} case study">
+    <div class="project-card__topline">
+      <span>{{ include.project.category }}</span>
+      <span>{{ include.project.year }}</span>
+    </div>
+    <div class="project-card__content">
+      <div>
+        <h3>{{ include.project.title }}</h3>
+        <p>{{ include.project.summary }}</p>
+      </div>
+      <span class="project-card__arrow">{% include icon.html name="arrow" %}</span>
+    </div>
+    <ul class="tag-list" aria-label="Tools used">
+      {% for tool in include.project.tools limit: 4 %}<li>{{ tool }}</li>{% endfor %}
+    </ul>
+  </a>
+</article>
+

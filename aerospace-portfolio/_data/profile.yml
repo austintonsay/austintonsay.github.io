@@ -1,0 +1,43 @@
+# Edit this file first. Most homepage content comes from here.
+name: "Your Name"
+monogram: "YN"
+discipline: "Aerospace Engineering Student"
+eyebrow: "AEROSPACE ENGINEERING · CLASS OF 2027"
+headline: "Engineering flight from first principles."
+intro: >-
+  I design, analyze, and build aerospace systems with a focus on work that
+  connects rigorous simulation to physical testing.
+location: "Your City, State"
+availability: "Seeking Summer 2027 opportunities"
+email: "you@example.com"
+linkedin: "https://www.linkedin.com/in/YOUR-HANDLE/"
+github: "https://github.com/YOUR-USERNAME"
+# Upload your PDF to assets/documents/resume.pdf, then uncomment the next line.
+# resume_url: "/assets/documents/resume.pdf"
+
+about_heading: "An engineer who likes closing the loop."
+about_body: >-
+  My best work happens where theory, computation, and hardware meet. I enjoy
+  translating an open-ended mission into requirements, modeling the important
+  physics, and validating the result with clear data. Replace this paragraph
+  with a concise version of your own engineering story.
+
+metrics:
+  - value: "03"
+    label: "Design-build projects"
+  - value: "02"
+    label: "Technical teams"
+  - value: "3.8"
+    label: "GPA / 4.0"
+
+principles:
+  - number: "01"
+    title: "Model the physics"
+    text: "Start with the governing behavior, expose the assumptions, and make the trade space visible."
+  - number: "02"
+    title: "Build for evidence"
+    text: "Design tests and prototypes that answer a specific engineering question."
+  - number: "03"
+    title: "Communicate clearly"
+    text: "Turn analysis into decisions that a multidisciplinary team can act on."
+

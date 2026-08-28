@@ -1,0 +1,20 @@
+- role: "Aerodynamics Lead"
+  organization: "University Design Team"
+  period: "Aug 2025 — Present"
+  summary: >-
+    Led aerodynamic development for a student flight vehicle, connecting
+    low-order sizing, CFD studies, and wind-tunnel validation.
+  highlights:
+    - "Defined the analysis plan and review cadence for a 5-person subteam."
+    - "Reduced predicted cruise drag by 12% through geometry iteration."
+
+- role: "Undergraduate Research Assistant"
+  organization: "Flight Sciences Laboratory"
+  period: "Jan 2025 — Aug 2025"
+  summary: >-
+    Supported experimental work on unsteady aerodynamic measurements and
+    automated post-processing for repeatable test results.
+  highlights:
+    - "Built a Python workflow that cut processing time from hours to minutes."
+    - "Documented uncertainty sources and validation checks for the test team."
+
