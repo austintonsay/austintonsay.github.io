@@ -1,17 +1,17 @@
 # Edit this file first. Most homepage content comes from here.
-name: "Your Name"
-monogram: "YN"
+name: "Austin Tonsay"
+monogram: "AT"
 discipline: "Aerospace Engineering Student"
 eyebrow: "AEROSPACE ENGINEERING · CLASS OF 2027"
 headline: "Engineering flight from first principles."
 intro: >-
   I design, analyze, and build aerospace systems with a focus on work that
   connects rigorous simulation to physical testing.
-location: "Your City, State"
+location: "Cerritos, CA"
 availability: "Seeking Summer 2027 opportunities"
-email: "you@example.com"
-linkedin: "https://www.linkedin.com/in/YOUR-HANDLE/"
-github: "https://github.com/YOUR-USERNAME"
+email: "altonsay@cpp.edu"
+linkedin: "https://www.linkedin.com/in/austintonsay/"
+github: "https://github.com/austintonsay"
 # Upload your PDF to assets/documents/resume.pdf, then uncomment the next line.
 # resume_url: "/assets/documents/resume.pdf"
 
