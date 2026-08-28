@@ -1,0 +1,31 @@
+- role: "Structures/Manufacturing Member"
+  organization: "Design, Build, Fly (DBF) Competition"
+  period: "August 2025 - Present"
+  summary: >-
+    Developed 3 structured trade studies comparing 4-6 candidate materials each
+    to optimize structural strength, weight, cost, and manufacturability for
+    aircraft wing and fuselage components.
+  highlights:
+    - "Designed tail assembly in SolidWorks intended for 3D printing to minimize part count, enhance manufacturability, and improve aerodynamic performance"
+    - "Fabricated wing/fuselage structure using SolidWorks-driven layouts, wood/foam core construction with carbon-fiber reinforcement, and controlled surface finishing with Monokote heat-shrink covering."
+
+- role: "Communications & Thermals Member"
+  organization: "Bronco S.T.A.R. · BLADE Odyssey"
+  period: "August 2025 - May 2026"
+  summary: >-
+    Developed a heating-pad trade matrix to evaluate 3 heater options against a
+    ~9.25W / 37.185Wh system power constraint for a 1U CubeSat gathering thermal
+    coating data in near-space conditions at ~100,000ft.
+  highlights:
+    - "Designed and constructed a thermostat control loop; sized and integrated two 60 x 40 mm² heating pads at 4.2V @ 3W (0.71A) each within calculated power budget."
+
+- role: "Small Rocket Competition, Team Lead"
+  organization: "Undergraduate Missiles, Ballistics, and Rocketry Association (UMBRA)"
+  period: "September 2025 - November 2025"
+  summary: >-
+    Designed model rocket’s fins/body dimensions in OpenRocket, SolidWorks CAD,
+    and Bambu Studio; improved projected apogee from 2100ft to 2900ft (~38%
+    increase) through aerodynamic optimization.
+  highlights:
+    - "Led a 5-person team; coordinated 1-2 meetings per week, assigned member roles, stayed within 2 days ahead of milestones."
+    - "Programmed Arduino IDE for avionics systems to read rocket altitude, surrounding pressure, and temperature accurately."
