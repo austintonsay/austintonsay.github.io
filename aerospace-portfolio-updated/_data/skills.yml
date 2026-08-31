@@ -1,0 +1,26 @@
+- group: "Design & Analysis"
+  icon: "orbit"
+  items:
+    - "SolidWorks"
+    - "Computer-Aided Design (CAD)"
+    - "OpenRocket"
+    - "Data Analysis"
+    - "Trade Studies"
+
+- group: "Manufacturing"
+  icon: "airfoil"
+  items:
+    - "3D Printing"
+    - "Bambu Studio"
+    - "Modular Assembly"
+    - "Composite Laminate Manufacturing"
+    - "Additive Manufacturing"
+
+- group: "Systems & Leadership"
+  icon: "satellite"
+  items:
+    - "Arduino IDE"
+    - "Project Management"
+    - "Microsoft Office"
+    - "Excel VBA"
+

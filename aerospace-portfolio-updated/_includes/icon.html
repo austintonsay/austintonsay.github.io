@@ -1,0 +1,13 @@
+{% case include.name %}
+  {% when "orbit" %}
+    <svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-28 12 12)"/><circle cx="20.5" cy="8.2" r="1" class="icon__fill"/></svg>
+  {% when "airfoil" %}
+    <svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13.5c5.7-4.7 12.2-5.2 20-2.3-6.2.3-12.8 1.6-20 2.3Z"/><path d="M3 16.8h18" class="icon__muted"/></svg>
+  {% when "satellite" %}
+    <svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="6" height="6" rx="1"/><path d="m8.5 8.5-4-4M15.5 15.5l4 4M7.5 5.5l-2 2m11 9-2 2M15.5 8.5l4-4m-11 11-4 4M18.5 5.5l2 2m-15 9 2 2"/></svg>
+  {% when "arrow" %}
+    <svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5m-9 0h9v9"/></svg>
+  {% when "menu" %}
+    <svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+{% endcase %}
+

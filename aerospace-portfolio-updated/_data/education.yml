@@ -1,0 +1,23 @@
+institution: "California State Polytechnic University, Pomona"
+graduation: "Expected Graduation: May 2029"
+degree: "Bachelor of Science, Aerospace Engineering (Emphasis: Astronautics)"
+gpa: "GPA: 3.83"
+coursework:
+  - code: "ARO1011L"
+    description: >-
+      Constructed a 41.5 in. wingspan remote-controlled aircraft with micro
+      servo-controlled control surfaces in a 6-person team to gather experimental
+      thrust, lift, drag data and computed average flight velocity flying upwind
+      and downwind
+  - code: "ARO1021L"
+    description: >-
+      Conducted comparative analysis between OpenRocket simulations, analytical
+      calculations, and experimental altimeter flight data for rocket systems;
+      identified discrepancies and sources of error
+  - code: "EGR1000L"
+    description: >-
+      Designed, programmed, and assembled a bipedal biomimetic robotic system as
+      Project Engineer; integrated Arduino IDE (C++) control of 4 micro
+      servo-actuated joints enabling 3 degrees of motion (vertical, horizontal,
+      rotational).
+
