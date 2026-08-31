@@ -4,6 +4,11 @@ monogram: "AT"
 discipline: "Aerospace Engineering Student"
 eyebrow: "AEROSPACE ENGINEERING · ASTRONAUTICS"
 headline: "CAD design, control systems, and data-driven validation."
+headline_lines:
+  - "CAD design,"
+  - "control systems,"
+  - "and data-driven"
+  - "validation."
 intro: >-
   Aerospace Engineering student at California State Polytechnic University,
   Pomona, with hands-on experience working with aircraft and model rocket

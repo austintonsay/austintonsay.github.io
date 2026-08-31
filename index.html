@@ -34,7 +34,11 @@ title: "Aerospace Engineering Portfolio"
     <div class="hero shell">
       <div class="hero__copy reveal">
         <p class="eyebrow">{{ profile.eyebrow }}</p>
-        <h1>{{ profile.headline }}</h1>
+        <h1 aria-label="{{ profile.headline }}">
+          {% for line in profile.headline_lines %}
+            <span aria-hidden="true">{{ line }}</span>
+          {% endfor %}
+        </h1>
         <p class="hero__intro">{{ profile.intro }}</p>
         <div class="hero__actions">
           <a class="button button--light" href="#work">View selected work</a>
