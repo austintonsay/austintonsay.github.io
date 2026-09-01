@@ -1,0 +1,33 @@
+title: "Austin Tonsay | Aerospace Engineering"
+description: "Aerospace Engineering student portfolio featuring aircraft structures, model rockets, CubeSat thermal systems, and embedded avionics."
+url: "https://austintonsay.github.io"
+baseurl: ""
+
+author:
+  name: "Austin Tonsay"
+
+theme: null
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
