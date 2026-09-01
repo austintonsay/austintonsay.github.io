@@ -88,7 +88,8 @@ button { font: inherit; }
 .project-card__media { position: absolute; z-index: -2; inset: 0; overflow: hidden; background: $ink; }
 .project-card__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(3,9,15,.9) 0%, rgba(3,9,15,.62) 54%, rgba(3,9,15,.25) 100%), linear-gradient(0deg, rgba(3,9,15,.8), transparent 68%); }
 .project-card__media img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.01); transition: transform .8s cubic-bezier(.2,.7,.2,1); }
-.project-card--image { grid-column: span 12; min-height: 520px; color: white; border-color: transparent; background: $ink; }
+.project-card--image { grid-column: span 6; min-height: 460px; color: white; border-color: transparent; background: $ink; }
+.project-card:first-child.project-card--image { grid-column: span 12; min-height: 520px; }
 .project-card--image:hover { background: $ink; box-shadow: 0 24px 70px rgba(7,16,25,.2); }
 .project-card--image:hover .project-card__media img { transform: scale(1.055); }
 .project-card__topline { display: flex; justify-content: space-between; color: $muted; font: .67rem "DM Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
@@ -186,12 +187,19 @@ button { font: inherit; }
 .project-data-table tbody tr:last-child > * { border-bottom: 0; }
 .data-gallery { width: min(980px, calc(100vw - 48px)); margin: 34px 0 56px 50%; transform: translateX(-50%); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .data-gallery--stack { grid-template-columns: 1fr; }
+.data-gallery--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .data-gallery figure { min-width: 0; margin: 0; padding: 10px; border: 1px solid $line; background: white; }
 .data-gallery a { display: block; overflow: hidden; background: #f7f7f7; }
 .data-gallery img { width: 100%; aspect-ratio: 1.45; object-fit: contain; transition: transform .4s ease; }
 .data-gallery--stack img { aspect-ratio: auto; }
 .data-gallery a:hover img { transform: scale(1.012); }
 .data-gallery figcaption { padding: 10px 4px 3px; color: $muted; font: .65rem/1.5 "DM Mono", monospace; }
+.project-era-index { display: grid; grid-template-columns: repeat(2, 1fr); margin-block: 48px 74px; border-top: 1px solid $ink; border-bottom: 1px solid $line; }
+.project-era-index > div { padding: 28px; }
+.project-era-index > div + div { border-left: 1px solid $line; }
+.project-era-index span { display: block; margin-bottom: 30px; color: $blue; font: .68rem "DM Mono", monospace; letter-spacing: .1em; }
+.project-era-index strong { display: block; font-size: 1.18rem; letter-spacing: -.025em; }
+.project-era-index p { margin: 8px 0 0; color: $muted; font-size: .8rem; }
 
 .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
 .js .reveal.is-visible { opacity: 1; transform: translateY(0); }
@@ -213,6 +221,13 @@ button { font: inherit; }
   .button { min-height: 40px; padding-inline: 16px; font-size: .7rem; }
   .hero__scroll { width: 168px; gap: 13px; font-size: .58rem; }
   .hero__scroll i { width: 40px; }
+  .project-hero-stage--image { min-height: calc(100svh - var(--header-height)); }
+  .project-hero-stage--image .project-hero { padding-block: clamp(74px, 11vh, 104px) 42px; }
+  .project-hero h1 { max-width: 780px; font-size: clamp(2.7rem, 5.2vw, 4.7rem); line-height: .97; }
+  .project-hero__summary { max-width: 680px; margin: 20px 0 28px; font-size: .95rem; line-height: 1.55; }
+  .project-facts { gap: 20px; }
+  .project-facts dt { margin-bottom: 4px; font-size: .58rem; }
+  .project-facts dd { font-size: .78rem; line-height: 1.45; }
 }
 
 @media (max-width: 800px) {
@@ -249,6 +264,9 @@ button { font: inherit; }
   .project-hero__summary { margin: 26px 0 38px; font-size: .96rem; }
   .data-gallery { width: calc(100vw - 32px); grid-template-columns: 1fr; }
   .project-data-table-wrap { width: calc(100vw - 32px); }
+  .data-gallery--three { grid-template-columns: 1fr; }
+  .project-era-index { width: calc(100vw - 32px); grid-template-columns: 1fr; }
+  .project-era-index > div + div { border-top: 1px solid $line; border-left: 0; }
 }
 
 @media (max-width: 360px) {
