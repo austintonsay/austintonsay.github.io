@@ -11,13 +11,8 @@ coursework:
       and downwind
   - code: "ARO1021L"
     description: >-
-      Conducted comparative analysis between OpenRocket simulations, analytical
-      calculations, and experimental altimeter flight data for rocket systems;
-      identified discrepancies and sources of error
+      Compared OpenRocket, static-fire analytical, inclinometer, and onboard altimeter apogee estimates across 3 model rockets; quantified method-to-method discrepancies and evaluated drag, manufacturing, and environmental sources of error. 
   - code: "EGR1000L"
     description: >-
-      Designed, programmed, and assembled a bipedal biomimetic robotic system as
-      Project Engineer; integrated Arduino IDE (C++) control of 4 micro
-      servo-actuated joints enabling 3 degrees of motion (vertical, horizontal,
-      rotational).
+      Designed/programmed an Arduino-controlled animatronic system integrating 4 servos and an ~85% 3D-printed structure; iterated actuator selection and mechanical fit to achieve 3 coordinated motions within a 12-in design envelope.
 
