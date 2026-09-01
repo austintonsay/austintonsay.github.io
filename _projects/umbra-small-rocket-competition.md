@@ -3,7 +3,7 @@ title: "UMBRA Small Rocket Competition - Big Blunt"
 order: 4
 category: "Rocketry · Team Leadership"
 year: "2025"
-summary: "Led a five-person team that increased predicted apogee from approximately 2,100 ft to 2,900 ft, then traced an internal structural-separation failure to insufficient epoxy cure time."
+summary: "I led a five-person team that increased predicted apogee from approximately 2,100 ft to 2,900 ft, then traced an internal structural-separation failure to insufficient epoxy cure time."
 role: "Team Lead · Aerodynamic design, coordination & avionics"
 duration: "September 2025 - November 2025"
 tools: ["OpenRocket", "SolidWorks", "Bambu Studio", "Arduino IDE"]
@@ -57,4 +57,4 @@ are structural requirements, not administrative details. A design can be
 geometrically sound and still fail when schedule pressure shortens a required
 manufacturing step. Future builds should include explicit cure windows,
 inspection criteria, and a no-go decision when bonded joints have not reached
-the required state.
+the required cure state.
