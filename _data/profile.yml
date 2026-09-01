@@ -11,11 +11,11 @@ headline_lines:
   - "validation."
 intro: >-
   Aerospace Engineering student at California State Polytechnic University,
-  Pomona, with hands-on experience working with aircraft and model rocket
-  structures, CubeSat thermal systems, and embedded avionics.
+  Pomona, with hands-on experience across high-power rocketry, aircraft
+  structures and manufacturing, thermal systems, and embedded avionics.
 location: "Cerritos, CA"
 availability: "Looking for an internship position"
-email: ""
+email: "altonsay@cpp.edu"
 phone: "+1 (562) 213-6508"
 linkedin: "https://www.linkedin.com/in/austintonsay"
 github: "https://github.com/austintonsay"
@@ -29,8 +29,8 @@ about_body: >-
 metrics:
   - value: "3.83"
     label: "GPA / 4.0"
-  - value: "~38%"
-    label: "Projected apogee increase"
+  - value: "~46%"
+    label: "Predicted HPR apogee increase"
   - value: "03"
     label: "Structured trade studies"
 

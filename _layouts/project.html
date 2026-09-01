@@ -11,15 +11,21 @@ layout: default
 </header>
 
 <main id="main" class="project-page">
-  <div class="project-hero shell">
-    <p class="eyebrow">{{ project.category }} · {{ project.year }}</p>
-    <h1>{{ project.title }}</h1>
-    <p class="project-hero__summary">{{ project.summary }}</p>
-    <dl class="project-facts">
-      <div><dt>Role</dt><dd>{{ project.role }}</dd></div>
-      <div><dt>Tools</dt><dd>{{ project.tools | join: ", " }}</dd></div>
-      <div><dt>Duration</dt><dd>{{ project.duration }}</dd></div>
-    </dl>
+  <div class="project-hero-stage{% if project.hero_image %} project-hero-stage--image{% endif %}">
+    {% if project.hero_image %}
+      <img class="project-hero-stage__media" src="{{ project.hero_image | relative_url }}" alt="{{ project.hero_alt }}" style="object-position: {{ project.hero_position | default: 'center' }}; object-fit: {{ project.hero_fit | default: 'cover' }};">
+      <div class="project-hero-stage__shade" aria-hidden="true"></div>
+    {% endif %}
+    <div class="project-hero shell">
+      <p class="eyebrow">{{ project.category }} · {{ project.year }}</p>
+      <h1>{{ project.title }}</h1>
+      <p class="project-hero__summary">{{ project.summary }}</p>
+      <dl class="project-facts">
+        <div><dt>Role</dt><dd>{{ project.role }}</dd></div>
+        <div><dt>Tools</dt><dd>{{ project.tools | join: ", " }}</dd></div>
+        <div><dt>Duration</dt><dd>{{ project.duration }}</dd></div>
+      </dl>
+    </div>
   </div>
   <article class="project-body shell shell--narrow prose">
     {{ content }}
@@ -32,4 +38,3 @@ layout: default
     <a href="{{ '/' | relative_url }}">Return home ↑</a>
   </div>
 </footer>
-
