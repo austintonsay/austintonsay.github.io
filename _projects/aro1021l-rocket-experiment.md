@@ -17,7 +17,7 @@ hero_alt: "A handheld model-rocket inclinometer being used in a field to measure
 ## Objective
 
 The experiment asked a deceptively simple question: how high did each rocket
-fly? Three kit rockets—Alpha, Bravo, and Charlie—were evaluated through methods
+fly? Three kit rockets: Alpha, Bravo, and Charlie, were evaluated through methods
 that rely on different measurements and assumptions. The goal was not merely to
 produce one altitude value, but to understand why valid-looking methods can
 disagree.
