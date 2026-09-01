@@ -3,7 +3,7 @@ title: "Baseline vs. Altitude-Optimized High-Power Rocket Experiment"
 order: 1
 category: "Rocketry · Design & Test"
 year: "2026"
-summary: "Designed a controlled baseline-versus-optimized experiment predicted to improve apogee from 3,089 ft to 4,523 ft, then converted vehicle loss into new tracking and recovery requirements."
+summary: "I designed a controlled baseline-versus-optimized experiment predicted to improve apogee from 3,089 ft to 4,523 ft, then converted vehicle loss into new tracking and recovery requirements."
 role: "Concept, manufacturing, recovery, retention & integration"
 duration: "May 2026 - Present"
 tools: ["SolidWorks", "OpenRocket", "PrusaSlicer"]
