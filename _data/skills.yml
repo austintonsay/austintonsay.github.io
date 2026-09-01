@@ -2,7 +2,6 @@
   icon: "orbit"
   items:
     - "SolidWorks"
-    - "Computer-Aided Design (CAD)"
     - "OpenRocket"
     - "Data Analysis"
     - "Trade Studies"
@@ -10,11 +9,11 @@
 - group: "Manufacturing"
   icon: "airfoil"
   items:
-    - "3D Printing"
-    - "Bambu Studio"
+    - "Fused Deposition Modeling in 3D Manufacturing"
+    - "PrusaSlicer"
     - "Modular Assembly"
-    - "Composite Laminate Manufacturing"
-    - "Additive Manufacturing"
+    - "Composite Lamination"
+    - "Design for Manufacturing (DFM)"
 
 - group: "Systems & Leadership"
   icon: "satellite"
