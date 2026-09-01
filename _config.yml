@@ -27,7 +27,9 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - README.md
+  - node_modules/
+  - vendor/
+  - .github/
