@@ -29,8 +29,8 @@ about_body: >-
 metrics:
   - value: "3.83"
     label: "GPA / 4.0"
-  - value: "~46%"
-    label: "Predicted HPR apogee increase"
+  - value: "31.7%"
+    label: "Measured HPR apogee increase"
   - value: "03"
     label: "Structured trade studies"
 
